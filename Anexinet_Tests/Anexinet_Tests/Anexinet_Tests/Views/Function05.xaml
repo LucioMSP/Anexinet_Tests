@@ -8,6 +8,15 @@
             <Label Text="Write a function that receives n (a number) as a parameter and prints all valid (properly opened and closed) combinations of n-pairs of parentheses." FontSize="Subtitle" />
             <Label Text="// Input: 3"/>
             <Label Text="// Output: ((())), (()()), (())(), ()(()), ()()()"/>
+
+            <Label Text="Number:" FontAttributes="Bold" Margin="0,30,0,5" />
+            <Entry x:Name="numberEntry" Placeholder="Enter a number" Keyboard="Numeric" />
+            <Button Text="Print combinations" Clicked="Combinations_Clicked"></Button>
+
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Combinations:" FontAttributes="Bold"/>
+                <Label x:Name="resultLbl" VerticalOptions="Center" />
+            </StackLayout>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
