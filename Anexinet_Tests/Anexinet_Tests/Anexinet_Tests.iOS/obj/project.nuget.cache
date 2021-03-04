@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "UJbSQDR7eQaJBjDvd/AaJrEb+v0MFa8nVbUYWnKQNX9SCsWwBuVCPdzXuZoe9IaJHrR+9KErae6n8PkU8FxibA==",
+  "dgSpecHash": "wuspjC0zgkAVdDnEufQzvF6g0bTWBaXad6bku5vZpdpHPQd4rckuR2clRe4/LlCeWkCXUtNbTirFWBL6hriuFA==",
   "success": true,
   "projectFilePath": "C:\\Solutions\\GitHub_VGGL\\Anexinet_Tests\\Anexinet_Tests\\Anexinet_Tests\\Anexinet_Tests.iOS\\Anexinet_Tests.iOS.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\VicenteGuzman\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.8.0.1451\\xamarin.forms.4.8.0.1451.nupkg.sha512"
   ],

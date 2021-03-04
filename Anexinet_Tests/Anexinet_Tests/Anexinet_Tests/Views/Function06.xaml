@@ -4,8 +4,20 @@
              x:Class="Anexinet_Tests.Views.Function06"
              Title="Function 06">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Write a function which will receive an hour and minute from an analog clock, and calculate the inner angle between them." FontSize="Subtitle" Padding="30,10,30,10"/>
+        <StackLayout Padding="30,10,30,10">
+            <Label Text="Write a function which will receive an hour and minute from an analog clock, and calculate the inner angle between them." FontSize="Subtitle" />
+
+            <Label Text="Hour:" />
+            <Entry x:Name="hourEntry" Keyboard="Numeric"/>
+
+            <Label Text="Minute:" />
+            <Entry x:Name="minuteEntry" Keyboard="Numeric" />
+
+            <Button Text="Check Angle" Clicked="CheckAngle_Clicked"></Button>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Angle between hour and minute hand:" FontAttributes="Bold"/>
+                <Label x:Name="resultLbl" VerticalOptions="Center" />
+            </StackLayout>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

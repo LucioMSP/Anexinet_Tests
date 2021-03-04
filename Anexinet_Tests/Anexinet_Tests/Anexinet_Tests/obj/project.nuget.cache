@@ -1,12 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "Y+Nkdah2h52H3pD/JQsKu+xhSg8DMIV0bS5dkf6Be6IbSyiMKaqA1ESZcNsuldcUP5uNxjZRJBXKw4XjtVdcSg==",
+  "dgSpecHash": "6V3UfSNMzBzasdBxb3vGiWhparpdgb3VcuAs2viUf39T66U5AlgM4xEXxjz+vwIaoXzFKuCvDQgM/L82dZ5O4Q==",
   "success": true,
   "projectFilePath": "C:\\Solutions\\GitHub_VGGL\\Anexinet_Tests\\Anexinet_Tests\\Anexinet_Tests\\Anexinet_Tests\\Anexinet_Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\VicenteGuzman\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\VicenteGuzman\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\VicenteGuzman\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\VicenteGuzman\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
     "C:\\Users\\VicenteGuzman\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\VicenteGuzman\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.8.0.1451\\xamarin.forms.4.8.0.1451.nupkg.sha512"
   ],
