@@ -4,8 +4,15 @@
              x:Class="Anexinet_Tests.Views.Function07"
              Title="Function 07">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Given a number between 0 and 1 (e.g. 0.15), print its binary representation. If the number cannot be represented accurately in binary with at most 32 characters, just print 'Error'." FontSize="Subtitle" Padding="30,10,30,10"/>
+        <StackLayout  Padding="30,10,30,10">
+            <Label Text="Given a number between 0 and 1 (e.g. 0.15), print its binary representation. If the number cannot be represented accurately in binary with at most 32 characters, just print 'Error'." FontSize="Subtitle"/>
+            
+            <Entry x:Name="numberEntry" Placeholder="Enter a number between 0 and 1" Keyboard="Numeric" />
+            <Button Text="Convert" Clicked="Check_Clicked"></Button>
+            
+            <Label Text="Result in binary"/>
+            <Label x:Name="resultLbl"/>
         </StackLayout>
+
     </ContentPage.Content>
 </ContentPage>
