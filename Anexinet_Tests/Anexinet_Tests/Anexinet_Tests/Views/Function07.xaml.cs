@@ -13,6 +13,10 @@ namespace Anexinet_Tests.Views
         {
             InitializeComponent();
         }
+        async void Check_Clicked(object sender, EventArgs e)
+        {
+            await validateNumber();
+        }
 
         private async Task validateNumber()
         {
@@ -23,33 +27,46 @@ namespace Anexinet_Tests.Views
                 return;
             }
             
-            double i = double.Parse(numberEntry.Text);
+            double num = double.Parse(numberEntry.Text);
 
+            long m = BitConverter.DoubleToInt64Bits(num);
+            string str = Convert.ToString(m, 2);
+            
             // Check if the number is between 0 to 1 or not  
-            if (i >= 1 || i <= 0)
+            if (num >= 1 || num <= 0)
             {
                 await this.DisplayAlert("Warning", "The number entered is not between the value 0 and 1.", "OK");
                 return;
             }
 
-            long m = BitConverter.DoubleToInt64Bits(i);
-            string str = Convert.ToString(m, 2);
+            StringBuilder binary = new StringBuilder();
+            binary.Append(".");
 
-            Console.WriteLine(str);
-
-            //Validates if binary value exceeds 32 characters
-            if (str.Length >= 32)
+            while (num > 0)
             {
-                await this.DisplayAlert("Warning", "The binary value of this number exceeds 32 characters.", "OK");
-                return;
+                // Setting a limit on length: 32 characters. If the number cannot be represented accurately in binary with at most 32 character 
+                if (binary.Length >= 32)
+                {
+                    await this.DisplayAlert("Error", "", "OK");
+                    return;
+                }
+                 
+                // Multiply by 2 in num to check it 1 or 0  
+                double r = num * 2;
+                if (r >= 1)
+                {
+                    binary.Append(1);
+                    num = r - 1;
+                }
+                else
+                {
+                    binary.Append(0);
+                    num = r;
+                }
             }
+            Console.WriteLine("Binary Value" + binary.ToString());
 
-            resultLbl.Text = str;
-        }
-
-        async void Check_Clicked(object sender, EventArgs e)
-        {
-           await validateNumber();
+            resultLbl.Text = 0 + binary.ToString();
         }
     }
 }
