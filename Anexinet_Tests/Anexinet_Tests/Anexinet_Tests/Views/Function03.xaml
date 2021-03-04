@@ -4,8 +4,10 @@
              x:Class="Anexinet_Tests.Views.Function03"
              Title="Function 03">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Write a function that combines two arrays by alternatingly taking their elements in, e.g [x,y,z], [10,20,30] prints [x,10,y,20,z,30]." FontSize="Subtitle" Padding="30,10,30,10"/>
+        <StackLayout Padding="30,10,30,10">
+            <Label Text="Write a function that combines two arrays by alternatingly taking their elements in, e.g [x,y,z], [10,20,30] prints [x,10,y,20,z,30]." FontSize="Subtitle"/>
+
+            <Label x:Name="resultLblCombines_Array" FontAttributes="Bold" Margin="0,20" HorizontalTextAlignment="Center" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
