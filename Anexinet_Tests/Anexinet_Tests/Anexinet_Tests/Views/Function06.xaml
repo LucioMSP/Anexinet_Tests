@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Anexinet_Tests.Views.Function06"
+             Title="Function 06">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Write a function which will receive an hour and minute from an analog clock, and calculate the inner angle between them." FontSize="Subtitle" Padding="30,10,30,10"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

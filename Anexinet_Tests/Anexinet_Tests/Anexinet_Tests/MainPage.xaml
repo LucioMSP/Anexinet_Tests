@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Anexinet_Tests.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="10" CornerRadius="0" HasShadow="True">
+            <Label Text="Anexinet Technical Test" HorizontalTextAlignment="Center" VerticalTextAlignment="Start" TextColor="White" FontSize="24"/>
+        </Frame>
+        <Label Text="Candidate: Vicente G. Guzman Lucio" FontSize="Subtitle" Padding="30,10,30,10"/>
+        <Label Text="In this application you can find the 7 exercises requested by the company, select the one you want to know." FontSize="16" Padding="30,0,30,0"/>
+        <ScrollView>
+            <StackLayout>
+                <Button Text="Function 01" Clicked="GoTo_Function01"/>
+                <Button Text="Function 02" Clicked="GoTo_Function02"/>
+                <Button Text="Function 03" Clicked="GoTo_Function03"/>
+                <Button Text="Function 04" Clicked="GoTo_Function04"/>
+                <Button Text="Function 05" Clicked="GoTo_Function05"/>
+                <Button Text="Function 06" Clicked="GoTo_Function06"/>
+                <Button Text="Function 07" Clicked="GoTo_Function07"/>
+            </StackLayout>
+        </ScrollView>
+    </StackLayout>
+
+</ContentPage>

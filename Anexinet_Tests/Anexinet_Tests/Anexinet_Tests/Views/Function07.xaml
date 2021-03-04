@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Anexinet_Tests.Views.Function07"
+             Title="Function 07">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Given a number between 0 and 1 (e.g. 0.15), print its binary representation. If the number cannot be represented accurately in binary with at most 32 characters, just print 'Error'." FontSize="Subtitle" Padding="30,10,30,10"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

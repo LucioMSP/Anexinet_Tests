@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Anexinet_Tests.Views.Function01"
+             Title="Function 01">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Write a function that receives 2 Date parameters and returns the time difference in minutes." FontSize="Subtitle" Padding="30,10,30,10"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

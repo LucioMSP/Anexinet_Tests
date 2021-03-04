@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Anexinet_Tests.Views.Function05"
+             Title="Function 05">
+    <ContentPage.Content>
+        <StackLayout Padding="30,10,30,10">
+            <Label Text="Write a function that receives n (a number) as a parameter and prints all valid (properly opened and closed) combinations of n-pairs of parentheses." FontSize="Subtitle" />
+            <Label Text="// Input: 3"/>
+            <Label Text="// Output: ((())), (()()), (())(), ()(()), ()()()"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

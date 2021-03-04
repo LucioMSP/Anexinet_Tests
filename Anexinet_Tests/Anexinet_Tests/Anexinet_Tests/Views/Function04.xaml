@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Anexinet_Tests.Views.Function04"
+             Title="Function 04">
+    <ContentPage.Content>
+        <StackLayout  Padding="30,10,30,10">
+            <Label Text="Write a function that prints the description of the previous number in a sequence of numbers, use two parameters, the first is the number to start the sequence and the second the number of iterations to show after the first number." FontSize="Subtitle"/>
+            <Label Text="For example: sayWhatYouSee(1,5) the result prints out:" />
+            <Label Text="1" />
+            <Label Text="11" />
+            <Label Text="21" />
+            <Label Text="1211" />
+            <Label Text="111221" />
+            <Label Text="312211" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
