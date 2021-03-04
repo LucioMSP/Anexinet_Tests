@@ -28,7 +28,6 @@ namespace Anexinet_Tests.Views
             Recalculate();
             RecalculateMinutes();
         }
-
         void Recalculate()
         {
             TimeSpan timeSpan = endDatePicker.Date - startDatePicker.Date +
@@ -37,7 +36,6 @@ namespace Anexinet_Tests.Views
             resultLabelDays.Text = String.Format("{0} day{1} between dates",
                                                 timeSpan.Days, timeSpan.Days == 1 ? "" : "s");
         }
-
         void RecalculateMinutes()
         {
             TimeSpan timeSpan = endDatePicker.Date - startDatePicker.Date +

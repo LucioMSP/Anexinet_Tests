@@ -4,8 +4,13 @@
              x:Class="Anexinet_Tests.Views.Function02"
              Title="Function 02">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Write a function that reverses a given (as parameter) string." FontSize="Subtitle" Padding="30,10,30,10"/>
+        <StackLayout Padding="30,10,30,10">
+            <Label Text="Write a function that reverses a given (as parameter) string." FontSize="Subtitle" />
+            <Entry x:Name="stringEntry" Placeholder="Write something..." Keyboard="Text" />
+            <Button Text="Reverse" Clicked="Reverse_Clicked"></Button>
+
+            <Label Text="Result:"/>
+            <Label x:Name="resultLbl"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
